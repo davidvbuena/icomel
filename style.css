@@ -1,0 +1,123 @@
+:root {
+    --dark-color: #403C3C;
+    --light-color: #fefefe;
+    --orange-color:#c1482e;
+    --cyan-color: #41ead4;
+    --grey-color: #fafafa;
+    --red-hover-color:  #661300;
+    --orange-hover-color: #661300;
+    --cyan-hover-color: #6af3e1;
+  }
+  body{
+      background: var(--grey-color);
+      font-family: "Roboto", sans-serif;
+  }
+  .desktop-nav{
+    background: var(--light-color);
+    border-radius: 14px;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2px 30px;
+    top: 28px;
+    width: calc(1400px - 100px);
+    display: flex;
+    box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.1);
+  }
+  .menu-items {
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+  }
+  li {
+    margin: 20px;
+  }
+  /*.desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--light-color);
+    margin: 0 auto;
+    box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    padding: 2px 30px;
+    padding-right: 3;
+    position: fixed;
+    z-index: 20;
+    width: calc(1400px - 100px);
+    top: 28px;
+    left: 250px;
+  }
+  .desktop-nav .menu-items {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-items li {
+    margin: 20px;
+  }
+  
+  
+  .desktop-nav .menu-items li .text {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+  }*/
+  .slide{
+      margin-top: 150px;
+      position: relative;
+      border-radius: 15px;
+      width: 95%;
+      left: 50px;
+      
+  }
+  .text {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+  }
+  .btn-destaque {
+    background: var(--orange-color);
+    color: var(--light-color);
+    border-radius: 24px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 400ms;
+    font-family: "Roboto", sans-serif;
+    margin-left: 100px;
+  }
+footer{
+    width: 100%;
+    background: var(--dark-color);
+    color: var(--light-color);
+    margin:0px auto;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+    
+}
+.footer-container {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 32px 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.footer-nav {
+    margin-top: 80px;
+    position: relative;
+    
+  }
+.copyright {
+    text-align: center;
+}
